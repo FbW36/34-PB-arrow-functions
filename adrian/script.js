@@ -4,7 +4,9 @@ const multTwoNumbers = (num1, num2) => num1 * num2;
 //2
 let arrayOfNumbers = [3, 5, 67, 12, 34, 4, 9, 30];
 
-let filteredArray = arrayOfNumbers.filter((num) => num % 2 !== 0);
+let filteredArray = arrayOfNumbers
+  .filter((num) => num % 2 !== 0)
+  .map((num) => num * 2);
 
 //3
 let arrayOfNumbers2 = [1, 2, 3];
