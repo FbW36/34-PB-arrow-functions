@@ -49,5 +49,5 @@ function calcArea(radius) {
     return `The are is ${Math.PI * Math.pow(radius, 2)}`;
 }
 
-console.log(calcCircumference(60));
-console.log(calcArea(60));
+console.log(calcCircumference(60)); // The circumferencis is 376.99111843077515
+console.log(calcArea(60)); // The are is 11309.733552923255
